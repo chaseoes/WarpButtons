@@ -1,8 +1,9 @@
-name: _PluginTemplate
-main: me.chaseoes.plugintemplate._PluginTemplate
+name: WarpButtons
+main: me.chaseoes.warpbuttons.WarpButtons
 version: 1.0
-description: The template I use for all my plugins. The name starts with _ so it appears first in my file listings.
+description: Create buttons that are linked to warps.
 commands:
-  plugintemplate:
-    description: The central command for the _PluginTemplate plugin.
+  warpbuttons:
+    description: The central command for the WarpButtons plugin.
     usage: /<command> [args]
+    aliases: [wb]
